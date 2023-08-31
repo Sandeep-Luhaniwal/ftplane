@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+:root {
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-secondary: 'Inter', sans-serif;
+    --ff-tertiary: 'Rubik', sans-serif;
+
+    --fs-xs: 12px;
+    --fs-2xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-md: 20px;
+    --fs-2md: 24px;
+    --fs-3md: 32px;
+    --fs-lg: 40px;
+    --fs-2lg: 48px;
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --extraLarge: 900;
+
+    --primary-color: #313EF7;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --secondary-color: #010223;
+    --gray-color: #9CA3AF;
+    --dark-color: #030522;
+    --card-color: #AEB5BF;
+    --darkBlack-color: #1B1B1C;
+    --heading-color: #011736;
+    --line-color: #030303;
+    --cardHeading-color: #030522;
+    --circle-color: #F5F5FF;
+    --footer-color: #A7A7A7;
+}
+
+.ff_primary {
+    font-family: var(--ff-primary) !important;
+}
+
+.ff_secondary {
+    font-family: var(--ff-secondary) !important;
+}
+
+.ff_tertiary {
+    font-family: var(--ff-tertiary) !important;
+}
+
+.fs_xs {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs_2xs {
+    font-size: var(--fs-2xs) !important;
+}
+
+.fs_sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs_2sm {
+    font-size: var(--fs-2sm) !important;
+}
+
+
+.fs_md {
+    font-size: var(--fs-md) !important;
+}
+
+.fs_2md {
+    font-size: var(--fs-2md) !important;
+}
+
+.fs_3md {
+    font-size: var(--fs-3md) !important;
+}
+
+.fs_lg {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs_2lg {
+    font-size: var(--fs-2lg) !important;
+}
+
+.fw_light {
+    font-weight: var(--light) !important;
+}
+
+.fw_regular {
+    font-weight: var(--regular) !important;
+}
+
+.fw_medium {
+    font-weight: var(--medium) !important;
+}
+
+.fw_semiBold {
+    font-weight: var(--semiBold) !important;
+}
+
+.fw_bold {
+    font-weight: var(--bold) !important;
+}
+
+.fw_extraBold {
+    font-weight: var(--extraBold) !important;
+}
+
+.fw_extraLarge {
+    font-weight: var(--extraLarge) !important;
+}
+
+.bg_primary {
+    background-color: var(--primary-color);
+}
+
+.bg_white {
+    background-color: var(--white-color);
+}
+
+.bg_black {
+    background-color: var(--black-color);
+}
+
+.color_primary {
+    color: var(--primary-color);
+}
+
+.color_white {
+    color: var(--white-color);
+}
+
+.color_black {
+    color: var(--black-color);
+}
+
+.color_secondary {
+    color: var(--secondary-color);
+}
+
+.color_gray {
+    color: var(--gray-color);
+}
+
+.color_footer {
+    color: var(--footer-color);
+}
+
+.color_dark {
+    color: var(--dark-color);
+}
+
+.color_card {
+    color: var(--card-color);
+}
+
+.color_darkBlack {
+    color: var(--darkBlack-color);
+}
+
+.color_heading {
+    color: var(--heading-color);
+}
+
+.color_line {
+    color: var(--line-color);
+}
+
+.color_cardHeading {
+    color: var(--cardHeading-color);
+}
+
+.bg_secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg_gray {
+    background-color: var(--gray-color);
+}
+
+.bg_dark {
+    background-color: var(--dark-color);
+}
+
+.bg_card {
+    background-color: var(--card-color);
+}
+
+.bg_darkBlack {
+    background-color: var(--darkBlack-color);
+}
+
+.bg_heading {
+    background-color: var(--heading-color);
+}
+
+.bg_line {
+    background-color: var(--line-color);
+}
+
+.bg_cardHeading {
+    background-color: var(--cardHeading-color);
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-xs: 12px;
+        --fs-2xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 24px;
+        --fs-lg: 40px;
+        --fs-2lg: 48px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-xs: 12px;
+        --fs-2xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 24px;
+        --fs-lg: 40px;
+        --fs-2lg: 48px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-xs: 12px;
+        --fs-2xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 24px;
+        --fs-lg: 40px;
+        --fs-2lg: 48px;
+    }
+}
